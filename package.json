@@ -9,7 +9,8 @@
   },
   "scripts": {
     "dev": "turbo run dev",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "commit": "git add . && git cz"
   },
   "keywords": [],
   "author": "Huang",
@@ -24,6 +25,8 @@
     "@eslint/js": "^9.6.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "9.x",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-react": "^7.34.3",
@@ -32,5 +35,10 @@
     "turbo": "^2.0.6",
     "typescript": "^5.5.3",
     "typescript-eslint": "^7.15.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
