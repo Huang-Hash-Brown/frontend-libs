@@ -1,0 +1,17 @@
+{
+  "name": "@huang-frontend-libs/hooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "keywords": [],
+  "author": "Huang",
+  "license": "ISC"
+}

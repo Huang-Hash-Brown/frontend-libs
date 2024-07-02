@@ -1,0 +1,13 @@
+{
+  "name": "@huang-frontend-libs/utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.mjs",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Huang",
+  "license": "ISC",
+  "dependencies": {}
+}

@@ -1,0 +1,14 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  "cSpell.words": [
+    "stylelint",
+    "tseslint"
+  ],
+  "files.exclude": {
+    "**/.git": false
+  }
+}

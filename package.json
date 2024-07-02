@@ -8,11 +8,13 @@
     "pnpm": ">=8"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "turbo run dev",
+    "build": "turbo run build"
   },
   "keywords": [],
   "author": "Huang",
   "license": "ISC",
+  "packageManager": "^pnpm@8.0.0",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
