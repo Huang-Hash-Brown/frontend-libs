@@ -1,0 +1,9 @@
+{
+  "name": "@huang-frontend-libs/config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Huang",
+  "license": "ISC"
+}

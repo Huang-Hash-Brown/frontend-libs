@@ -4,10 +4,27 @@
   "description": "",
   "main": "./dist/index.mjs",
   "scripts": {
-    "build": "tsc"
+    "build": "unbuild"
   },
   "keywords": [],
   "author": "Huang",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {},
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./index": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./sleep": {
+      "import": "./dist/sleep.mjs",
+      "require": "./dist/sleep.js",
+      "types": "./dist/sleep.d.ts"
+    }
+  }
 }

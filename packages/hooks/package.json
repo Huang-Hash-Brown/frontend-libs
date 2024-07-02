@@ -5,7 +5,7 @@
   "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
   "scripts": {
-    "build": "tsc"
+    "build": "unbuild"
   },
   "peerDependencies": {
     "react": "^18.3.1",
@@ -13,5 +13,22 @@
   },
   "keywords": [],
   "author": "Huang",
-  "license": "ISC"
+  "license": "ISC",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./index": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./useIsMounted": {
+      "import": "./dist/useIsMounted.mjs",
+      "require": "./dist/useIsMounted.js",
+      "types": "./dist/useIsMounted.d.ts"
+    }
+  }
 }

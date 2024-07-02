@@ -4,7 +4,7 @@
   "description": "",
   "main": "./dist/index.mjs",
   "scripts": {
-    "build": "tsc"
+    "build": "unbuild"
   },
   "keywords": [],
   "author": "Huang",
@@ -13,5 +13,27 @@
   "peerDependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./components": {
+      "import": "./dist/components.mjs",
+      "require": "./dist/components.js",
+      "types": "./dist/components.d.ts"
+    },
+    "./index": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./button": {
+      "import": "./dist/button.mjs",
+      "require": "./dist/button.js",
+      "types": "./dist/button.d.ts"
+    }
   }
 }

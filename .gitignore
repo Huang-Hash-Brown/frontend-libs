@@ -9,3 +9,7 @@ packages/**/node_modules
 
 # turbo
 .turbo
+
+packages/utils/*.d.ts
+packages/hooks/*.d.ts
+packages/ui/*.d.ts
